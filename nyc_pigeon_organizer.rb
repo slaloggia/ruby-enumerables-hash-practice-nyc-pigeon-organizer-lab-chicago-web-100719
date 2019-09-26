@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  pigeon_hash = {}
+  pigeon_list = {}
   
   data.each{|characteristic, value_hash| 
    value_hash.each do |detail, names_array| 
@@ -9,6 +9,6 @@ def nyc_pigeon_organizer(data)
   end
     }
     
-  pigeon_hash
+  pigeon_list
   
 end
