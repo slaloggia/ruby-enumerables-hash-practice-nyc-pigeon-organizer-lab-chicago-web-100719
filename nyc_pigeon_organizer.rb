@@ -10,8 +10,10 @@ def nyc_pigeon_organizer(data)
   end
     }
     
-  pigeon_list.each{|pigeon, values| 
-   
+  pigeon_list.each{|name, characteristic| 
+   characteristic.each do |array|
+     
+   end
    }
   
   pigeon_list
