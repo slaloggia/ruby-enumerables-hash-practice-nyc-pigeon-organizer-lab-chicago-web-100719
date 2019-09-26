@@ -14,7 +14,9 @@ def nyc_pigeon_organizer(data)
    characteristic.each do |key, array|
      data.each do |characteristic, value_hash|
        value_hash.each do |detail, names_array|
-         
+         if names_array.include?(pigeon_list[name])
+           array.push(detail.to_s)
+         end
        end
      end
    end
