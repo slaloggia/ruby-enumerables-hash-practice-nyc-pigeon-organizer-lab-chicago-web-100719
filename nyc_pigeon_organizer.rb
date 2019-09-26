@@ -1,3 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  pigeon_hash = {}
+  data.each{|attribute_hash| attribute_hash.
 end
