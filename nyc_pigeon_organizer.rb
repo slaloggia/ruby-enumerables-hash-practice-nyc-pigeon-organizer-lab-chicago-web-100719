@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
    value_hash.each do |detail, names_array| 
      names_array.each do |name|
        pigeon_list[name] ||= {}
-     
    end
   end
     }
