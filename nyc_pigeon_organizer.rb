@@ -13,7 +13,9 @@ def nyc_pigeon_organizer(data)
    pigeon_list[name][characteristic] ||= []
    
    value_hash.each do |detail, names_array|
-     if names_array
+     if names_array.include?(pigeon_list[name])
+       pigeon_list[name][characteristic].push(detail)
+     end
    }
    
    
