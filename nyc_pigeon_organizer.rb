@@ -5,13 +5,19 @@ def nyc_pigeon_organizer(data)
    value_hash.each do |detail, names_array| 
      names_array.each do |name|
        pigeon_list[name] ||= {}
-       pigeon_list[name][characteristic] ||= []
    end
- 
   end
     }
+  
+   data.each{|characteristic, value_hash|
+   pigeon_list[name][characteristic] ||= []
+   
+   value_hash.each do |detail, names_array|
+     if names_array
+   }
+   
+   
     
   pigeon_list
-  
   
 end
