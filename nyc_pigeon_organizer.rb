@@ -11,8 +11,12 @@ def nyc_pigeon_organizer(data)
     }
     
   pigeon_list.each{|name, characteristic| 
-   characteristic.each do |array|
-     
+   characteristic.each do |key, array|
+     data.each do |characteristic, value_hash|
+       value_hash.each do |detail, names_array|
+         
+       end
+     end
    end
    }
   
