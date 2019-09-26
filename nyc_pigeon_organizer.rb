@@ -5,8 +5,9 @@ def nyc_pigeon_organizer(data)
    value.each do |names_array| 
      names_array.each do |name|
      unless pigeon_hash[name]
-     pigeon_hash[name] => {}
-   end
+       pigeon_hash[name] = {}
+     end
+
    end
   end
     }
