@@ -7,8 +7,6 @@ def nyc_pigeon_organizer(data)
        pigeon_list[name] ||= {}
         
    end
-   pigeon_list[name][characteristic] ||= []
-    pigeon_list[name][characteristic].push(detail)
   end
     }
     
