@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
    end
   end
     }
+    
+  pigeon_list
   
    data.each{|characteristic, value_hash|
    pigeon_list[name][characteristic] ||= []
