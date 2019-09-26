@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
      names_array.each do |name|
        pigeon_list[name] ||= {}
    end
-   pigeon_list[name][characteristic] ||= detail
+   pigeon_list[name][characteristic] ||= []
   end
     }
     
